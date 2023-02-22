@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    font-family: 'Lora',serif;
+}
+.container{
+    width:100%;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 4em 2em;
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub-cont1{
+    width:250px;
+    height: 200px;
+    padding: 0 .2em;
+}
+.star{
+    width: 10px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.rate-btn1{
+    width:250px ;
+    padding: .5em .5em;
+    margin: .5em 0;
+    
+}
+.rate-btn2{
+    width:250px ;
+    padding: .5em .5em;
+    margin: .5em 0;
+    margin-left: 4em;
+    max-width: 100%;
+}
+.rate-btn3{
+    width:250px ;
+    padding: .5em .5em;
+    margin: .5em 0;
+    margin-left: 8em;
+    max-width: 100%;
+}
+.sub-cont1-h{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.rate-btn-h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    max-width: 30%;
+
+}
+.review1{
+    background-color: purple;
+    width: 265px;
+    height: 180px;
+    max-width: 30%;
+    border-radius: .5em;
+    padding: 1em 1em;
+    }
+.review2{
+    background-color: purple;
+    width:265px ;
+    height: 180px;
+    max-width:30% ;
+    border-radius: .5em;
+    padding: 1em 1em;
+    margin-top: 1em;
+}
+.review3{
+    background-color: purple;
+    width: 265px;
+    height: 180px;
+    max-width: 30%;
+    border-radius: .5em;
+    padding: 1em 1em;
+    margin-top: 2em;
+}
+h2{
+    font-size:28px;
+    color: purple;
+}
+.handsome{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+h3{
+    margin:0;
+}
+.review-client{
+    display: grid;
+    grid-template-columns: 60px 150px;
+}
+.review-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    width: 100%;
+}
+.text1,h3{
+    color: white;
+}
+span{
+    color:rgb(245, 7, 245);
+}
+@media(max-width:600px){
+    .sub-cont-h{flex-direction: column;   
+    }
+    .rate-btn-h{
+        flex-direction: column;
+    }
+}
