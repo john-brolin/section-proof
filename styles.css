@@ -59,24 +59,9 @@ body{
     max-width: 30%;
 
 }
-.review1{
-    background-color: purple;
-    width: 265px;
-    height: 180px;
-    max-width: 30%;
-    border-radius: .5em;
-    padding: 1em 1em;
-    }
-.review2{
-    background-color: purple;
-    width:265px ;
-    height: 180px;
-    max-width:30% ;
-    border-radius: .5em;
-    padding: 1em 1em;
-    margin-top: 1em;
-}
-.review3{
+
+.reviews{
+    
     background-color: purple;
     width: 265px;
     height: 180px;
@@ -103,9 +88,8 @@ h3{
 }
 .review-cont{
     display: flex;
-    justify-content: space-between;
-    margin-top: 1em;
-    width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .text1,h3{
     color: white;
@@ -119,4 +103,29 @@ span{
     .rate-btn-h{
         flex-direction: column;
     }
+}
+
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid-item {
+  flex-basis: calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .grid-item {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+    flex-basis: 100%;
+  }
 }
